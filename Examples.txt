@@ -1,0 +1,780 @@
+6Birden fazla container oluşturulabilir, containerların içinde rowlar ve flexboxlar bulunur.
+
+
+
+Container-fluid sayfayı kaplar
+
+row row-cols-lg-4
+
+4 veri bırak rowun içinde ve largedan sonra
+yani bir row a 4 kolon sığdır
+
+Col-md-12 dediğimiz zaman md mediumdur sm vs boyları var
+
+
+
+Row içinde birden fazla row olabilir, row un içinde col var bulunur.
+
+
+
+Flexboxlar- grid sistem yerine kullanıyor, genelde sistemi düzenlemek için.
+
+
+
+flex- komutuyla çalışır.
+
+
+
+D-flex divleri yanyana getirmek için kullanıyoruz
+
+
+
+Flex-inline dediğimiz zaman içeri doğru bir flex işlemi kullanılır.
+
+
+
+Flex row ve flex column komutları vardır. Burada itemları yanyana veya alçalta sıralamak için kullanılır.
+
+.flex-sm-row
+.flex-sm-row-reverse
+
+
+
+
+Varsayılan değer Utrecht
+
+İçerikleri hizalar (flex-wrap kullanıyor) grup halde hizalar
+
+Align-content-start
+
+Align-content-center
+
+Align-content-between eşit aralıklarla başta ve sonda
+
+Align-content-around aralarında boşluk bırakıyor
+
+Align-content-strect yayma
+
+
+
+Align-content-md-start
+
+
+
+
+
+(Tek sıra verin varsa algin iteme kullancaksın yoksa algin-content)
+
+Flex-wrape gerek yok
+
+Align-items-baseline yazıların altkısımları hizalar
+
+
+
+
+
+İtemları tek tek hizalamak için
+
+Align self kullanılır
+
+
+
+Align-self-start
+
+
+
+
+
+Emmet
+
+Div oluşturmak için vscode içinde bulunan kısayol mükemmel bir şey
+
+Kullanış şöyle
+
+
+
+div.container>div.row>div.col-md-8 
+
+
+
+Dediğimiz zaman direkt kendi oluşturuyor.
+
+
+
+Kaç tane olmasını istersen ul.list>li.item*6 diyoruz
+
+
+
+
+
+Yazı başlıkları
+
+Display-1
+
+Display-2
+
+6 ya kadar
+
+<small> h1 in küçüğü
+
+<mark> içeriden padding bırakıyor
+
+<abbr title=“”> Yazının üzerine gelince kısaltmayı açıyor
+
+<blockquate> Yazının kimden alındığı vs görünür
+
+<code> rengi kırmızıya dönüştürür
+
+<kbd> arka planı siyah yapar
+
+<pre> Yazı güzelliği ve satır yüksekliği güzel bir yazı verir.
+
+
+
+
+
+Metin düzenleme (class iiçinde)
+
+Text-start
+
+Text-center
+
+Text -end
+
+
+
+Text-lg-start
+
+Text-break (uzun yazıları kesiyor. Yorumlarda kullanılır)
+
+Text-decoration-none(Linklerde altçizgiyi kaldırır)
+
+Text-decoration-underline
+
+Text-decoration-line-through
+
+Text-lowercase
+
+Text-uppercase
+
+Text-capitalize
+
+
+
+Fontsize ayarlar
+
+Fs-1 
+
+6 ya kadar gider
+
+
+
+Fw-bold
+
+Fw-lighter
+
+Fw-italic
+
+Fw-normal
+
+
+
+Satır aralıkları için
+
+Lh-1
+
+Lh-sm
+
+Lh-lg
+
+
+
+
+
+Class olarak
+
+Text-reset link rengini sıfırlıyor
+
+Üst sınıfına text-success ve ya text muted yapılabilir
+
+
+
+List için
+
+ul-List-inline  li-list-inline-itemiçerideki maddeleri yan yana yazar
+
+List-unstyled komutu başındaki noktaları siler
+
+
+
+
+
+Renkler
+
+Text-primary
+
+Text-danger
+
+Text-warning
+
+Text-light
+
+Text-opacity-1
+
+Bg- aynı text gibi
+
+
+
+Çerçeve
+
+Border
+
+Border-start sol
+
+Border-end sağ
+
+Border-1-5
+
+Border-primary
+
+
+
+Oval yapmak için
+
+Rounded ekliyoruz
+
+Rounded-end
+
+Rounded-bottom
+
+Rounded-circle
+
+Rounded-1-5
+
+Rounded-pill
+
+
+
+Margin ve padding
+
+P-1
+
+Pt-0,5
+
+Pb
+
+Pe
+
+Ps
+
+Px
+
+Py
+
+
+
+M-1
+
+My
+
+Mx
+
+Ms
+
+Me
+
+Mt
+
+Mb
+
+
+
+My-xl-5
+
+
+
+Görünürlük ve gizleme
+
+
+
+D-none
+
+D-block 
+
+D-sm-block
+
+D-print-none komutu yazıcıdan çıktı alınmasını engeller
+
+D-print-block
+
+
+
+Yararlı araç
+
+Üstünde bir class açıp içine clearfix yazacaksın
+
+Itemi sağa sola akıt
+
+Float-start
+
+Float-end
+
+
+
+User-select-none seçilmemesi için
+
+User-select-all hepsini tek tıkla seçer
+
+
+
+Opacity
+
+Opacity-100,0
+
+
+
+
+
+Shadow gölge
+
+Shadow-none
+
+Shadow-sm
+
+
+
+Overflow lider oluşturuyor yanda
+
+Yazının overflow oluşturmak için yapılır
+
+Overflow-auto
+
+Overflow-scroll
+
+
+
+
+
+Visible
+
+Invisible (sayfada var gibi davranıyor)
+
+
+
+
+
+Genişlik ve yükseklik h konulur
+
+W-100 
+
+W-50
+
+W-75
+
+W-0
+
+Mw-100 maximum width
+
+Auto konulursa içeriği kadar
+
+
+
+
+
+Mobil ve tablet
+
+Viewport height viewport width
+
+vw-100
+
+Vh-100
+
+Min-vw-100
+
+gap-3 arada boşluk bırakır
+
+
+
+Dikey hizalama(tablo örneği verildi)
+
+Align-top
+
+Align-middle
+
+
+
+Link renklendirmeler
+
+
+
+Link-primary vb
+
+
+
+Texti kesip 3 nokta bırakmak için
+
+Text-truncate class kullanıyor
+
+
+
+Yazdıktan sonra bir çizgi bırakmak için
+
+Vertical rule 
+
+Vr class ismi
+
+
+
+Videoları duyarlı hale getirmek için
+
+Ratio classı
+
+Ratio Ratio-16x9 genelde diye kullanılır
+
+
+
+Pozisyon *
+
+Position-fixed sayfada divi yukarı veya aşağı kaydırsak bile sabit kalır. Fakat olması için bottom-0 ve ya end-0 filan kullanmak gerekli
+
+
+
+Position sticky denildiği zaman scrollu aşağı indirdiğimiz zaman yapışıyor ve orada bizimle beraber geliyor.
+
+Bunu genellikle navbar ve footerda görünür
+
+
+
+Position-static sabit olan
+
+
+
+Position-absolute siteden komple bağımsız hareket eder. Z-index 1 gibi üstte kalır.
+
+
+
+Position-relative sitede pozisyonunu kaybetmez. Sitede bulunduğu konum üzerinden hareket eder.
+
+
+
+En üstteki div’i relative yapıp alttaki divleri absolute yaptığımız zaman yukarıdaki divin içinde responsive olarak kalır.
+
+
+
+
+
+Translate-middle resmi tam merkezine göre ortalar. Burada bildirim geldiğinde sağ üstte görünmesini sağlıyor. Önemli!
+
+Translate-middle -x Translate-middle-y
+
+
+
+
+
+TABLOLAR
+
+TABLE-PRİMARY DİYE RENK VERİLEBİLİR
+
+TABLE-STRİPT ÇİZGİLİ BİR GÖRÜNÜM OLUR
+
+TABLE HOVER Nerenin üstüne geliyorsan o aydınlanır
+
+Tabla bordered kenarlık
+
+Table borderless ile çizgiyi kaldırırız
+
+Table-sm tabloyu küçültür
+
+
+
+Tablo içerisinde tablo oluşturmak için o tenin içinde td sayısı kadar colspan=“5” diye bir değer verip tablı oluşturuyoruz
+
+<caption> tabloların başlığı olduğunu gösteriyor.
+
+
+
+Table ı açtığın classın üstünde bir div aç o dive de table-responsive özelliğini kullan
+
+
+
+Table-responsive-sm
+
+
+
+Resimler
+
+
+
+Img-fluid resmi responsive yapmak için kullanılır
+
+Img-thumbnail çerçeve atıyor
+
+
+
+
+
+Alertler
+
+
+
+role=“alert” diye div içinde tanımlanır
+
+
+
+Alert classı btn close verirsek ve data-bs-dismiss=“alert” dersek kapatma işlemi gerçekleşir
+
+BUTONLAR
+btn btn-dark
+btn btn-info
+btn btn-info btn-sm
+a ları buton yapmak için role="button" ekle
+
+BUTON GRUP
+
+üste bir div açılıp clasına btn-group verilir
+alta da istediğimiz kadar buton clası tanımlayabiliriz ya da buton
+
+dropdown yapmak için bir buton tanımla ve classa dropdown-toggle ver. data-bs-toggle elementini ver. bunların üst classında btn-group olsun. databs verdiğin div'in aşağısınıda ul ve li ile donat. Ullere dropdown-menu classını ver li lere dropdown-item classını**
+btn-group-vertical diyerek aşağı doğru sıralıyoruz
+*
+
+GUTTER VE OLUKLAR
+x ve y 
+g-1
+g-md-5
+gx-1 diye veriliyor iki nesnenin arasındaki mesafeyi arttırır.
+gy-5
+stünlar arasında boşluk olması için
+
+BADGE
+Butonun içinde bildirim varsa yanına bir rozet koyar. 
+ol içinde class olarak breadcrumb ver bu örnek olarak honda/cbr/2010model şeklinde görünümü sağlıyor aşağıdaki gibi
+breadcrumb-item da onun içerisindeki itemlar
+eğer / ile ayırmak istemiyorsak style içerisinde --bs-breadcrumb-divider: '>'; bu büyüktür die ayırır
+
+PROGRESS BAR
+
+div class oluştur içine progress ver
+onun içindeki dive progress-bar özelliğini ver
+sanki bir çubuk doluyormuş gibi özellik görülür.
+
+progress-bar-striped ve progress-bar-animated animasyonlu bir şekilde çizgili yapıyor
+
+SPİNNER
+
+spinner-border classı ile çalışır
+text-success ile renk verilir
+spinner-border-sm da olabilir classı ile çalışır
+spinner-grow büyüyen top
+
+PAGINATION
+
+Bir tane nav elementimiz oluyor, içine ul veriyoruz ve classı pagination oluyor. liler ise page-item ve page-link oluyor.
+
+LIST GROUP
+
+(üst clasa list-group verirsen içeriye oluşturduğun buton vs içine list-group-item vermen gerek.)
+ul lerin içine list-group veriyorsun, li lerin içine list group item veriyorsun
+li lerin içine ekstra list-group-item-action verirsen aktif link görünümü veriyorsun
+list-group-flush yandaki çizgileri kaldırıyor sadece alt çizgiler kalıyor
+list-group-horizontal verirsen yatay oluşturur. 
+list-group-horizontal-xl vs diye verebiliyoruz
+list-group-item-primary vs diye renk verilebilir
+list-group-numbered
+
+Tab Panel
+
+parent classa tab-content verilir
+alt classlara tab-pane ve active ve ya olmadığını belirtiriz ki düzelsin
+
+TOOLTIPS
+
+data-bs-toggle elementine tooltip veriyoruz
+data-bs-placement="bottom" alttarafa tooltip yerleştirir
+---GEREKSİZ DİYE DÜŞÜNDÜM VİDEOLARA BAKILIR
+
+POPOVER
+
+data-bs-toggle="popover" pop up gibi comment açılıyor
+data-bs-content="altta açılan popver" açıldıktan sonraki text
+data-bs-placement="left" açılması gereken yer
+data-bs-trigger = "focus" click,focus,hover yan yana birlikte kullanılabilir
+Javascript yazılmalı!
+var list=[].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popOverTipList = List.map(function(x){
+return new bootstrap.Popover(x,{
+container:'body'
+}
+})
+
+CARDS
+parent classa card veriyorsun
+title için card-title oluştur (bodynin altında olmalı)
+alt title istiyorsan card-subtitle yapıyorsun
+içerisine card-body veriyorsun
+card-text paragraf yazdığın zaman
+card-link linkler için
+imgler için card-img-top,bottom,end,start
+card-header başlık oluşturur (bodynin üstünde olmalı)
+card-footer footer eklemek için
+car-img-overlay dediğimiz zaman yazılarımız resmin üzerine gelir(yazı classına verilmeli)
+
+CAROUSELS (resim slide işlemi!!!!) 
+üst sınıfa carousel slide yap/data-bs-ride="carousel" yapmamız lazım slide için(otomatik olması içinm)
+sonrasında alt sınıfa carousel-inner yap
+içeri sınıflara carousel-item yaz
+
+carousel-control-prev,next geri ve ileri butonu/ classıa da data-bs-target e id ver,data-bs-slide="next" a ise next ve  a prev ver
+görünmesi içinde carousel-control-prev-icon ya da next-icon ı verirsen kaydırma işlemi yaparsın
+
+carousel-indicators(alta çizgi koyuyor resmin, resmin üzerine gelince çalışmayı durdurur) 
+
+alt sınıflarına data-bs-slide-to="0" nereye slidelayacağını veriyoruz
+data-bs-target="" diyip class ismini vermeyi unutmyuorz
+
+carousel-caption
+başlık oluşturuyor ve resmin altına koyuyor
+
+carousel-fade solma efekti veriyor
+
+geçiş efektini yavaşlatmak veya hızlandırmak istiyorsan data-bs-interval="1" gibi sayı değeri veriyorsun
+
+data-bs-touch="false" ve data-bs-interval="false" verirsen parent classa artık otomatik başlamaz  
+
+bootstrap iconlarla crouseli değiştirebilirsin
+
+carousel-dark verirsen koyulaştırır alttarafı
+
+COLLAPSE ( aşağıya bir card atmıştı onu açıp kapatıyor güzel özellik)
+Parent classa collapse veriyoruz id ver. data-bs-toggle="collapse" ver 
+sonra başka bir a href aç ve href a bu idyi verip onu kontrol edersin  (ya da data-bs-target verip onu kontrol edebilirsin)
+
+collapse collapse-horizontal dersek yatay açılır(özellikle width vermen gerek pixelli!)
+
+birden fazla açıp gizlemek istersen data-bs-target=".multi-collapse" demek gerekiyor
+
+DROPDOWN
+
+parent class dropdown olacak
+alt classa buton koyup ona id veriyorsun ve data-bs-toggle seçeneğini dropdown yapıyorsun ve classa dropdown-toggle 
+
+altına bir ul koyup ona dropdown-menu diyorsun ve classın dışına aria-labelledby="" yukarıdaki idyi veriyorsun dropdown-menu-dark verirsen içerisi karanlık olur, dropdowmn-menu-end dersen sona doğru açılır
+dropdown-menu-lg-end diyerek ekran boyutlarına göre düzenlersin
+
+dropdown item yerine dropdown-header verirsen başlık oluşturur içinde.
+yukarıdakinin altına classlara dropdown-item diyorsun
+
+ayırmak için dropdown-divider
+dropdown-toggle-split kullanırsan bölersin butonu
+
+dropup,dropend,dropbottom,dropstart diye verirsen parent classına dropdownın yönlerini belirlersin 
+
+NAV VE TABS
+parent classa nav veriyorsun ve nav-tabs verirsen çerçeve oluşturuyor hoverlayınca, nav-pills verirsen backgroundu mavi yapıyo, nav-fill verirsen full containerı dolduruyor ve içeriği kadar büyük alan veriyor, nav-justified hepsine eşit
+içeridekilere nav-item ve link olması için nav-link veriyorsun
+
+DİNAMİK SEKMELER ********************
+Bizim vue da aşağıda tabları çağırmak!
+
+ul tanımlar içerisine nav nav-tabs ver ve idsini ver rolüne de tablist ver
+li lere clasa nav-item role="presentation" içine buton ver 
+buton classa nav-link id="Thome" data-bs-toggle="tab" data-bs-target="#home" role="tab" aria-controls="home" aria-selected="true" ana sayfa dersin butona
+
+sonra ul nin altına bir div aç classı tab-content olacak
+içine ayrı bir div aç ve classı tab-pane fade active olsun classın içi idsi yukarıdaki controls ve data-bs in içindeki olsun role=tabpanel  aria-labelledby="Thome" yaparssan içerisini doldurursun
+
+yandan açılsın dersen
+
+d-flex align-items-start ver
+alt classa nav flex-cloumn ver gerisi aynı uller ve liler yok onun yerine sadece buton
+d-flex divin içinde aynı şekilde tab-pane oluşturuyorsun
+
+
+MODAL!!!!
+parent classa modal ver fade eklersen clasa solma efekti gelir id ver, eğer otomatik kapanmasını istemiyorsan data-bs-backdrop="static" data-bs-keyboard="false" 
+alt classa modal-dialog ver, modal-dialog-centered dersen tam ortadan modal açar, modal-dialog-scrollable dersen scrollanabilir modal oluşturur
+alt classa modal-content ver
+bu clasın içinde 3 class var
+modal-header içerisine modal-title tanımla title ver içerisine buton verip data-bs-dismiss="modal" ve btn-close ver
+modal-body
+modal-footer footera butonlar ekle save iptal vs
+
+buton oluştur data-bs-toggle="modal" data-bs-target="" yukarıdaki idyi tetikle
+
+modal-sm
+modal-fullscreen
+modal-lg-fullscreen
+modal-lg
+
+Grid sistemi de kullanabiliyorsun
+
+ACCORDION (RAFLARI AÇIYORMUŞUZ GİBİ YAPIYORUZ ÖNEMLİ) Kendin yap na
+parent classa accordion verip içerideki divlere accordion-item vermek zorundasın
+accordion itemın içine ayrı bir class açıp accordion-header veriyorsun 
+alt accordiona accordion-collapse veriyorsun, 
+içeride accordion body olacak 
+data-bs-toggle=collapse, data-bs-taget="#secong"
+alt classa data-bs-parent ve yukarıdakinin idsini verirsen, birine tıkladığında diğeri kapanır.
+yapmazsan hepsi açık kalır
+
+OFFCANVAS (sağda veya solda yapışık biçimde çıkan ek ekranlar)
+parent classa offcanvas ve offcanvas-start veriyorsun görünmesi içinde show eklersin. 
+alt divlerde offcanvas-header
+offcanvas-title olan yere buton koyup data-bs-dissmis="offcanvas"verirsin
+offcanvas-body var
+
+eğer parent classa id verirsen, buton oluşturup data-bs-target=""canvas id ve data-bs-toggle=""offcanvas verirsen yan tarafta canvas olur
+
+NAVBAR !!!!
+nav oluştur classına navbar-navbar-expand-lg ver navbar-light diye renk belirt
+içerisine a href tanımlayıp navbar-brand yap bu butonu oluşturuyor! bunu profil adı olarak da yapabilirsin
+
+navbar-toggler üç çizgi oluşturuyor navbarda bunu butona veriyorsun! data-bs-toggle="collapse" data-bs-target=""id ver
+bu butonun içine navbar-toggler-icon veriyorsun!
+
+alta oluşturduğun div içerisine collapse, navbar-collapse ve id ver
+içerisine ul tanımla ve ona navbar-nav ver
+li lere ise nav-item ve nav-link ver (id ver data-bs-toggle="dropdown" yap sonrasında altına bir ul aç ve dropdown-menu yap ve aria-labelledby=nDropdown olsun ve içerisini dropdown itemlarla doldur) ekstra bu! yukarıyı yap ilk.
+navbar a fixed-top etiketini verirsen yukarıda sabit olarak kalır!!! Bu sitelerde de böyle oluyor.
+
+
+
+navbar offcanvas ile kullanım admin panelde yanda açılan buton sırası gibi !!!
+
+YÜKLENİYOR ÖZELLİĞİ!
+
+
+Formlar!!
+Form oluştur ana kısma, 
+Label için form-label ver
+inputa form-control ver
+checkboxlara form-check-input ver
+textler için form-text ver
+renkler için form-control-color
+textbox ın çevresi olmasın diyorsanız form-control-plaintext
+
+form-check-inline verirsen ek olarak yan yana sıralar
+
+select option yapmak için label oluştur içine for oluştur ve select'in idsini ver
+alt tarafta oluşturduğun select'in idsi de aynı olsun ve classını form-select ve içine optionlar oluştur
+
+form-select-sm
+
+
+radio
+form-check-input id ver
+form-check-label for verip yukarıdakinin idisini veriyorsun
+
+SWITCHLER GENELLİKLE DARK MODE İŞLEMLERİ İÇİN YAPILIYOR
+form-check form-switch veriyorsun
+içerisine input a form-check-input id ver
+label a form-check-label for yukarıdakinin idsi
+
+
+range ve input
+
+form-label veriyorsun ve for a id ver
+alttaki inputa type range ver ve clasa form-range yap idsi yukarıdakinin aynısı min max ve step verirsen div aralık belirlersin
+
+input-group veriyorsun ve içerisine input oluşturuyorsun(bu inputa form-control vermene gerek yok) eğer bu oluşturduğun group un altına bir span atıp input-group-text verirsen otommatik gri bir gmail oluşluyor
+input-group-lg
